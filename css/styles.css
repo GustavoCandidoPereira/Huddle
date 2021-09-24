@@ -1,0 +1,213 @@
+body{
+    
+     overflow-x: hidden;
+}
+.comum{
+  display: block;
+    background: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-content: center;
+    text-align: center;
+}
+
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: var(--first-neutral-color);
+    flex-basis: 100%;
+    justify-content: center;
+    align-content: flex-start;
+    display: flex;
+    font-size: 300%
+
+}
+
+.text{
+        flex-basis: 100%;
+
+}
+
+.container{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 300px;
+}
+
+.screen-mockups{
+  display: flex;
+  position: relative;
+  justify-content: center;
+
+}
+#test{
+  width: 72%;
+}
+
+p{
+        font-family: 'Poppins', sans-serif;
+        color: rgb(128, 142, 153);
+        flex-basis: 30%;
+        text-align: center;
+        font-size: 160%;
+        margin-left: 20%;
+        margin-right: 20%;
+}
+
+form{
+  padding-top: 15%;
+  padding-bottom: 20%;  
+}
+
+.barra{
+  display: flex;
+  position: absolute;
+ text-align: center;
+ background-color: hsl(192, 100%, 9%);
+ width:100%;
+ top: 245%;
+ height: 280px;
+ bottom: 150%;
+ left: 0;
+}
+
+svg{
+    height:15px;
+    width: 5px;
+    padding-bottom: 10%;
+}
+
+.redes-sociais{
+  display: inline;
+  position: absolute;
+  top:70%;
+  left: 6.8%;
+
+}
+
+.facebook{
+width: 30px;
+height: 30px;
+padding: 10px;
+
+}
+.instagram{
+width: 30px;
+height: 30px;
+padding: 10px;
+
+
+}
+.twitter{
+width: 30px;
+height: 30px;
+background-color: white;
+position: absolute;
+top:20%;
+border-radius: 5px;
+left: 110%;
+
+}
+
+
+.input{
+  display: flex;
+  position: relative;
+  border-radius: 10px;
+  border-style: outset;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width:40%;
+  height:50%;
+
+
+}
+
+.acess{
+    flex-basis: 100%;
+}
+
+
+.button{
+  position: relative;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 10px;
+  border-style: outset;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 15%;
+  height: 50%;
+  margin-left: 30px;
+
+}
+ul{
+  list-style: none;
+  display: flex;
+}
+
+li{
+ position: relative;
+  width: 80px;
+  left: 60%;
+  top: 200%;
+  padding: 5px;
+}
+
+
+.menu{
+  position: relative;
+    text-align: left;
+    font-size: 95%;
+    font-family:'Poppins', sans-serif;
+
+}
+
+.linha{
+  display: flex;
+  flex-basis: 16%;
+}
+
+.espaço{
+  padding-left: 30px;
+}
+.copy{
+ position: absolute;
+ font-size:55%;
+ width: 350px;
+ opacity: 70%;
+ padding: 10%;
+ left: 103%;
+ height: 20px;
+ top:110%;
+}
+
+.menu{
+  display: flex;
+  position: relative;
+  left: 30%;
+}
+.logo{
+  display: flex;
+  position: relative;
+  bottom: -40%;
+  height: 40px;
+  left: 15%;
+}
+#copy{
+  display: flex;
+  position: relative;
+    top:170%;
+    left: 12%;
+}
